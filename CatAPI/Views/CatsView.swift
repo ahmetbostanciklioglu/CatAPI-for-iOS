@@ -47,8 +47,7 @@ struct CatsView: View {
         for cat in fetchedCats {
             let newCat = CatDatabase(image: cat.url)
             modelContext.insert(newCat)
-        }
-        
+        }  
     }
 }
 

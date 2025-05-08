@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 @MainActor
 final class CatViewModel: ObservableObject {
     @Published var cats: [Cat]?

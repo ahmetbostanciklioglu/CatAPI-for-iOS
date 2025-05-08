@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftData
 
 @main
-struct CatAPIApp: App {
+struct CatApp: App {
     var sharedModelContainer: ModelContainer = {
         do {
             return try ModelContainer(for: CatDatabase.self)

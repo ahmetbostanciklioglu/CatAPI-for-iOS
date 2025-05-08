@@ -8,7 +8,6 @@
 import Foundation
 import SwiftData
 
-
 @Model
 final class CatDatabase {
     var image: String = ""

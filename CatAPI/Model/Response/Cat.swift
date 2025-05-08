@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 // MARK: - Cat
 class Cat: Codable {
     let id: String
